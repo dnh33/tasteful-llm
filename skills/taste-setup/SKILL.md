@@ -174,20 +174,33 @@ Maps to: Anti-Preferences entry with conviction reasoning.
 After the last Phase 2 question, before Phase 3:
 
 ```
-One more option: I can ask 3 questions about your creative philosophy — not style preferences, but what you believe about craft itself. This produces a richer profile.
+One more thing. I can ask 3 questions about what you believe 
+about craft — not preferences, but convictions. Things like 
+whether you revise by adding or cutting, or whether you write 
+for yourself first or for the reader.
 
-Want that layer? Takes about 2 extra minutes.
+Makes the profile sharper. 3 questions, 2 minutes.
 ```
 
 If no: proceed to Phase 3.
 
-If yes: load @rubin-calibration.md. Select 3 probes based on which taste dimensions remain unresolved. For each probe:
+If yes: load @rubin-calibration.md. Before the first probe, set the frame once:
 
-1. Present the Rick Rubin quote
+```
+These draw from creative philosophy — propositions about how 
+craft works. There are no right answers. I'm mapping where 
+you stand, not testing you.
+```
+
+Then present 3 probes, selected based on which taste dimensions remain unresolved. For each probe:
+
+1. Present the quote first, then quiet attribution on a new line (`— Author, Source`)
 2. Ask the question from the probe
 3. Wait for response
 4. Map to the belief entry using the response table
 5. Store the belief entry for Phase 4
+
+Do not use `Author: "[quote]"` format — that reads as endorsement. Use em-dash citation: it's credit, not branding.
 
 Present probes one per turn. Do not batch.
 
