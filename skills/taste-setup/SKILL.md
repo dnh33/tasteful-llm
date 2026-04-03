@@ -129,7 +129,15 @@ Maps to: the ineffable "not me" signal → Anti-Preferences entry with reasoning
 
 ### Q3: A/B Comparison (ask if Phase 1 left ambiguity on density, authority, warmth, friction, or ornament)
 
-A dimension is "resolved" when Phase 1 produced a clear, consistent signal with evidence and the user confirmed it. Example: all scanned sentences under 15 words, no compounds, user said "yes, that's me" → density is resolved, skip the density pair.
+A dimension is "resolved" when Phase 1 produced a clear, consistent signal with evidence and the user confirmed it.
+
+Examples of RESOLVED (skip the pair):
+- *Density:* All scanned sentences under 15 words, no compound sentences, user confirmed "yes, that's me."
+- *Authority:* Prose consistently uses imperative voice with no hedging, user didn't push back on the mirror observation.
+- *Warmth:* User's README is entirely procedural — numbered steps, no conversational asides — and user confirmed it reflects their preference.
+
+Example of NOT RESOLVED (show the pair):
+- *Density:* Scanned prose has mixed sentence lengths (some short, some long), or user said "that's just my README, I write differently elsewhere."
 
 If unresolved, select ONE pair from this library based on the specific gap:
 
@@ -189,7 +197,9 @@ After all 3 probes are answered, proceed to Phase 3.
 
 Generate two versions of a short paragraph (2-3 sentences):
 - **Version A:** Written using the user's emerging preferences (sentence length, register, authority posture, specificity level — everything gathered so far)
-- **Version B:** Written using generic default style (hedging, longer sentences, adjective-heavy, setup sentences)
+- **Version B:** Written competently but without the user's specific voice — a different but valid editorial approach. NOT obviously bad writing. Both versions must pass the 5 checks. The difference should be in disposition and voice, not quality.
+
+The point is to test whether the system captured the user's VOICE, not whether it can produce something obviously better than slop. If B is obviously worse, the user picks A by quality, not by taste. That proves nothing.
 
 Topic selection:
 - If Phase 0 found a README, rewrite a sentence or short passage from it
@@ -203,7 +213,7 @@ Based on what I've learned, here's the same idea written two ways:
 
 [A] [version matching their emerging profile]
 
-[B] [generic version with hedging, padding, adjectives]
+[B] [competent version with a different editorial approach — not bad, just not them]
 
 Which sounds more like how you'd say it?
 ```
