@@ -11,6 +11,18 @@ EVERY SENTENCE MUST FAIL THE SUBSTITUTION TEST OR IT GETS REWRITTEN.
 
 The Substitution Test: take any sentence. Replace the product/company name with a competitor's. If the sentence still works — it's slop. It contains zero specific information.
 
+## Operating Mode
+
+Before applying the checks, determine the mode:
+
+- **Generate:** The user asked for new text (write, create, draft, produce) or provided no existing text. Apply the Iron Law strictly. Every sentence must pass or it gets rewritten.
+- **Refine:** The user provided existing text and asked to improve, edit, tighten, rework, or polish it. Apply the same checks, but change the disposition toward the user's existing sentences:
+  - 5/5: Leave it alone.
+  - 3-4/5: Preserve the sentence. Note which checks it failed. Offer a tightened version the user can accept or reject. Do not silently rewrite.
+  - 0-2/5: Rewrite. Genuinely hollow sentences get fixed regardless of mode.
+
+Generate mode is the default. When in doubt, generate.
+
 ## Genre Classifier
 
 Before applying the gate, classify the content:
@@ -80,6 +92,7 @@ After generating creative output that the user explicitly approves or rejects, u
 | "This is how landing pages are written" | That's exactly why most of them are invisible. |
 | "I need to fill this section" | A short section with real content beats a long section with filler. |
 | "The tone calls for warmth" | Warmth comes from specificity and care, not exclamation marks. |
+| "The user's original was fine" | In Generate mode, there is no original. In Refine mode, "fine" means 3/5+. Below that, it's not fine — it's hollow. |
 
 ## Red Flags — STOP and Rewrite
 

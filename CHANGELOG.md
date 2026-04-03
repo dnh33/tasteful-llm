@@ -36,6 +36,11 @@
 - Loading logic now supports global + project merge
 - Loads Creative Beliefs as editorial stance constraints
 
+### Fixed: Over-correction of good existing writing
+- Added Operating Mode: Generate (strict, default) vs. Refine (preserve 3-4/5 sentences, offer alternatives)
+- Sentences scoring 3-4/5 in Refine mode are preserved with improvement offered, not silently rewritten
+- New Refine Mode Scoring section in specificity-test.md
+
 ## 0.2.0 — 2026-04-03
 
 - Taste Memory: learning system that captures user preferences over sessions
