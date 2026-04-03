@@ -252,4 +252,20 @@ After the user confirms the characterization, write the profile:
 
 **Word budget:** Keep setup entries to 150 words for Voice DNA + Anti-Preferences, 100 words for Creative Beliefs. Leave 250 words of budget for future passive learning. Total profile must stay under 500 words.
 
-If this is a "Refine" re-run: only overwrite entries tagged `[setup:*]`. Preserve all `[observed:*]` entries exactly as they are.
+If this is a "Refine" re-run: only overwrite entries tagged `[setup:*]`. Preserve all `[observed:*]` entries exactly as they are. If a new setup entry targets the same dimension as an existing observed entry, the observed entry wins — do not overwrite it. Instead, add the new setup entry alongside it and note the conflict: `<!-- conflict: setup says X, observed says Y — watching for which sticks -->`. The learning system will resolve it over time.
+
+## If the User Exits Early
+
+If the user stops responding or says "that's enough" before Phase 4 is complete, save nothing. A partial profile with incomplete data is worse than no profile — it creates false confidence in the learning system. Acknowledge: "No profile saved. Run /taste-setup again when you're ready."
+
+## Behavioral Guardrails
+
+Apply these throughout the entire session:
+
+**Language:** Never use craft terminology in questions or mirrors. No "register," "cadence," "voice," "tonal." Use plain language and concrete examples. The questions above are written in plain language — maintain that standard in all follow-ups, mirrors, and ad-hoc responses.
+
+**Framing:** Frame everything as discovery, not evaluation. Never use "better," "best," "ideal," or "favorite." Use "which pulls you in," "which sounds like you," "which would you ship." The user should feel seen, not tested.
+
+**Low engagement:** If the user gives 2+ low-signal answers ("either is fine," "I don't know," "both are ok"), switch from preference elicitation to aversion elicitation: "Forget what you like for a second — what makes you cringe when you read it?" People who can't articulate positive preferences almost always have strong negative ones.
+
+**Contradictions:** If the user's answers contradict each other (e.g., says they prefer minimal writing but chose the elaborate A/B option), treat it as signal, not error. Synthesize into a higher-order pattern: "You seem to prefer restraint in description but richness in openings — that's a specific and coherent taste, a kind of controlled contrast. Does that track?" Never say "that's contradictory" or "you said the opposite earlier."
