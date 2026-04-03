@@ -66,12 +66,24 @@ Ask Claude to review existing text:
 
 The audit skill produces a structured report with per-sentence findings, pattern codes, and specific rewrites.
 
+## Taste Memory
+
+TastefulLLM learns your preferences over time. It maintains a taste profile at `.tasteful-llm/taste-profile.md` in your project that captures:
+
+- **Voice DNA** — your sentence patterns, word choices, tonal preferences
+- **Learned preferences** — recurring corrections promoted to rules after 2+ occurrences
+- **Confirmed good** — output you shipped without edits (what "right" looks like for you)
+- **Anti-preferences** — things you specifically reject beyond the standard catalog
+
+The profile starts empty and grows as you work. First session, TastefulLLM catches generic slop. Tenth session, it catches *your* slop.
+
 ## Architecture
 
 Recursive router pattern — each file loads only what's needed:
 
 ```
 SKILL.md → specificity-test.md (always)
+         → taste-profile (if exists — learned preferences)
          → anti-pattern-catalog.md (Full/Reduced tier)
              → patterns/language.md → language/modifiers.md
              → patterns/copy.md → copy/headlines.md

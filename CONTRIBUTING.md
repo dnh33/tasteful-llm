@@ -25,6 +25,12 @@ When adding content, put it in the right level:
 - New sub-group → new terminal file + update category router
 - New category → new router + terminals + update catalog
 
+## Taste Profile System
+
+The taste profile at `.tasteful-llm/taste-profile.md` is user-specific and NOT part of the plugin repo. Don't commit taste profiles. The template at `skills/tasteful-output/taste-profile-template.md` defines the structure — edit that if you want to change profile sections.
+
+The learning protocol in `skills/tasteful-output/taste-memory.md` defines when and how the profile gets updated. Changes to the learning protocol should be tested by verifying the profile captures the right data points without over-recording.
+
 ## Testing
 
 After changes, install locally and verify:

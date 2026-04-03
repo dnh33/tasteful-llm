@@ -34,6 +34,16 @@ For each entry, record:
 - Date everything so preferences can age out
 - Keep the profile under 500 words — prune oldest entries when it grows
 
+## Creating the Profile
+
+On first write, create the directory and file using the structure from @taste-profile-template.md:
+
+1. Create `.tasteful-llm/` in the project root (or `~/.tasteful-llm/` for global)
+2. Copy the template structure into `taste-profile.md`
+3. Add the first entry under the appropriate section
+
+Do not create the profile preemptively. Only create it when there's a real data point to record.
+
 ## Where the Profile Lives
 
 The taste profile is stored at `.tasteful-llm/taste-profile.md` in the user's project root or `~/.tasteful-llm/taste-profile.md` for global preferences. Project-level profiles override global.
