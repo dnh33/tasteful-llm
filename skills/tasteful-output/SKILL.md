@@ -54,8 +54,13 @@ Load the taste profile using the following merge logic:
 
 1. Load global profile (~/.tasteful-llm/taste-profile.md) if it exists
 2. Load project profile (.tasteful-llm/taste-profile.md) if it exists
-3. If both exist, merge: project entries override global entries when they address the same dimension. All other entries from both profiles apply.
-4. Load the Creative Beliefs section if it exists. Apply beliefs as editorial stance constraints — they modify how aggressively specific checks are applied (see the behavioral mappings in taste-setup/rubin-calibration.md).
+3. If both exist, merge: project entries override global entries when they address the same dimension. When in doubt whether two entries address the same dimension, apply both — over-constraining is better than dropping a preference.
+4. Load the Creative Beliefs section if it exists. Belief entries are self-descriptive — interpret them directly. Examples of how beliefs modify behavior:
+   - `subtraction is the primary revision move` → apply Zombie Test more aggressively, default to cutting over adding
+   - `creator-first, audience-last` → when a sentence passes checks but might be inaccessible, keep it — voice > accessibility
+   - `personality over polish` → prefer a rough edge with voice over a perfectly smooth sentence
+   - `ship and iterate` → once output passes the 5 checks, present it — don't over-polish
+   - `specificity over accessibility` → in the Substitution Test, push for hyper-specific details even if they narrow the audience
 
 Apply all profile entries as additional filters alongside the 5 checks.
 

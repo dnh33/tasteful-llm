@@ -1,6 +1,6 @@
 # Changelog
 
-## v0.3.0 — Taste Onboarding
+## v0.3.0 — Taste Onboarding (2026-04-03)
 
 ### New: `/taste-setup` command
 - Guided taste calibration session that generates a foundational taste profile

@@ -62,3 +62,7 @@ When writing new entries, always include the source tag:
 - Passive learning entries: `[observed:YYYY-MM-DD]`
 - Entries from `/taste-setup`: `[setup:YYYY-MM-DD]`
 - Future voice calibration entries (v0.4.0): `[calibration:YYYY-MM-DD]`
+
+**Tagless entries (v0.2.0 backward compatibility):** Profiles created before v0.3.0 have entries without source tags. Treat tagless entries as `[observed:unknown]` — they were created by the passive learning system and should be preserved during /taste-setup runs.
+
+**Observed-vs-observed conflicts:** When two observed entries contradict each other, the newer one (by date) replaces the older one. The user's taste has evolved — trust the latest signal.
