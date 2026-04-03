@@ -47,3 +47,18 @@ Do not create the profile preemptively. Only create it when there's a real data 
 ## Where the Profile Lives
 
 The taste profile is stored at `.tasteful-llm/taste-profile.md` in the user's project root or `~/.tasteful-llm/taste-profile.md` for global preferences. Project-level profiles override global.
+
+## Entry Provenance
+
+Profile entries carry source tags: `[setup:date]` for questionnaire-generated entries, `[observed:date]` for passively-learned entries.
+
+When reading the profile, treat both equally — apply all entries as constraints regardless of source.
+
+When WRITING to the profile, apply the override rule: if a new observed preference contradicts an existing `[setup:*]` entry on the same dimension, the observation replaces the setup entry. The profile converges toward demonstrated reality over self-report.
+
+A "contradiction on the same dimension" means: the entries make opposing claims about the same aspect of writing. Example: setup says "short sentences, verb-forward" but observations consistently show the user approving medium-length sentences with dependent clauses. The observation wins.
+
+When writing new entries, always include the source tag:
+- Passive learning entries: `[observed:YYYY-MM-DD]`
+- Entries from `/taste-setup`: `[setup:YYYY-MM-DD]`
+- Future voice calibration entries (v0.4.0): `[calibration:YYYY-MM-DD]`
