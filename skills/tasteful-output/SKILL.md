@@ -50,7 +50,14 @@ Load @voice-test.md when task is Reduced or Craft tier, or when output passes th
 
 Load @taste-memory.md for the learning protocol.
 
-Load the user's taste profile (.tasteful-llm/taste-profile.md) if it exists. Apply learned preferences as additional filters alongside the 5 checks.
+Load the taste profile using the following merge logic:
+
+1. Load global profile (~/.tasteful-llm/taste-profile.md) if it exists
+2. Load project profile (.tasteful-llm/taste-profile.md) if it exists
+3. If both exist, merge: project entries override global entries when they address the same dimension. All other entries from both profiles apply.
+4. Load the Creative Beliefs section if it exists. Apply beliefs as editorial stance constraints — they modify how aggressively specific checks are applied (see the behavioral mappings in taste-setup/rubin-calibration.md).
+
+Apply all profile entries as additional filters alongside the 5 checks.
 
 After generating creative output that the user explicitly approves or rejects, update the taste profile following the protocol in @taste-memory.md.
 
