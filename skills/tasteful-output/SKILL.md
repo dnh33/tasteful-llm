@@ -48,6 +48,12 @@ Load @anti-pattern-catalog.md when task is Full or Reduced tier. Then navigate t
 
 Load @voice-test.md when task is Reduced or Craft tier, or when output passes the 5 checks but feels clinical.
 
+Load @taste-memory.md for the learning protocol.
+
+Load the user's taste profile (.tasteful-llm/taste-profile.md) if it exists. Apply learned preferences as additional filters alongside the 5 checks.
+
+After generating creative output that the user explicitly approves or rejects, update the taste profile following the protocol in @taste-memory.md.
+
 ## Rationalizations
 
 | Excuse | Reality |
