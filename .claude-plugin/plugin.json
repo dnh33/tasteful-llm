@@ -1,7 +1,7 @@
 {
   "name": "tasteful-llm",
   "description": "Eliminates AI slop from creative and strategic output. Substitution Test gate + 39-pattern anti-slop catalog.",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "author": {
     "name": "dnh33",
     "url": "https://github.com/dnh33"
