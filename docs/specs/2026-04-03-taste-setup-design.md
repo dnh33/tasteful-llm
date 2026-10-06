@@ -1,3 +1,13 @@
+> Historical design document for v0.3.0 (note added 2026-10-06). Current behaviour differs: see README.md and CHANGELOG.md (v0.4.0).
+>
+> Main differences relevant to this document:
+> - The command is `/tasteful-llm:taste-setup`. Plugin skills are namespaced, and taste-setup is a skill.
+> - The catalog has 52 patterns in six categories (L1-L17, S1-S10, C1-C9, ST1-ST7, D1-D5, F1-F4). The "39 anti-patterns across 5 categories" example lines are out of date.
+> - Skills link to sibling files with relative markdown links. The `@file` references shown below are not a documented skill feature and were removed.
+> - tasteful-output now loads in this order: classify tier and mode, model profile, taste profile, draft, post-draft catalog review, voice test. The loading snippet below shows only the profile step.
+> - anti-slop-audit now reads the taste profile and treats its Anti-Preferences as extra patterns, which section "anti-slop-audit/SKILL.md - note" says it does not.
+> - Rubin probes 6 and 8 are plain propositions with no quote, and the Saint-Exupery line is attributed to Terre des hommes (1939).
+
 # v0.3.0 Design Spec: `/taste-setup` — Taste Onboarding
 
 > The pipeline is the commodity. The editorial filter is the moat.

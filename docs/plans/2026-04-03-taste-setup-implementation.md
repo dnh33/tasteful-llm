@@ -1,3 +1,13 @@
+> Historical design document for v0.3.0 (note added 2026-10-06). Current behaviour differs: see README.md and CHANGELOG.md (v0.4.0).
+>
+> Main differences relevant to this document:
+> - The command is `/tasteful-llm:taste-setup`. Plugin skills are namespaced, and taste-setup is a skill.
+> - The catalog has 52 patterns in six categories (L1-L17, S1-S10, C1-C9, ST1-ST7, D1-D5, F1-F4). The "39 anti-patterns across 5 categories" example lines are out of date.
+> - Skills link to sibling files with relative markdown links. The `@file` references shown below are not a documented skill feature and were removed.
+> - The `.claude-plugin/plugin.json` version is 0.4.0 and the CHANGELOG has a v0.4.0 entry above v0.3.0.
+> - The rubin-calibration.md and SKILL.md contents in the tasks below are the original drafts. The shipped files differ (probe attribution, namespaced command, 52-pattern wording).
+> - The "Replace loading logic" task text predates the model-profile and post-draft review steps in tasteful-output.
+
 # `/taste-setup` Implementation Plan
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
