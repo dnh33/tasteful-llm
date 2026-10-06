@@ -1,11 +1,11 @@
-# Rubin Calibration — Creative Belief Probes
+# Rubin calibration: creative belief probes
 
-> Loaded by /taste-setup when the user opts into creative philosophy calibration.
+> Loaded by /tasteful-llm:taste-setup when the user opts into creative philosophy calibration.
 > Not loaded during regular tasteful-output operation.
 
 ## How to Use
 
-Select 3 probes per session based on which taste dimensions remain unresolved after Phase 2. For each probe, present the quote first, then attribution on a new line using em-dash format (`— Author, Source`), then the question. Do not use `Author: "[quote]"` format. Record the user's response (agree / disagree / complicated) and write the corresponding belief entry to the Creative Beliefs section of the taste profile.
+Select 3 probes per session based on which taste dimensions remain unresolved after Phase 2. For each probe that has a quote, present the quote first, then the attribution on a new line in plain form (`Author, Source`), then the question. Do not use `Author: "[quote]"` format. Probes 6 and 8 have no quote: present the proposition as plain text with no quotation marks and no attribution, then the question. Record the user's response (agree / disagree / complicated) and write the corresponding belief entry to the Creative Beliefs section of the taste profile.
 
 ## The Probes
 
@@ -16,7 +16,7 @@ Select 3 probes per session based on which taste dimensions remain unresolved af
 ```
 "The objective is not to learn to mimic greatness, but to 
 calibrate our internal meter for greatness."
-— Rick Rubin, The Creative Act
+Rick Rubin, The Creative Act
 
 Are you trying to match a specific voice you admire, or 
 building your own sense of what's good?
@@ -30,12 +30,13 @@ building your own sense of what's good?
 
 ### Probe 2: Subtractive Perfection
 **Resolves:** Additive vs. subtractive revision instinct
+**Note:** The English wording is a common translation of the French original ("Il semble que la perfection soit atteinte non quand il n'y a plus rien à ajouter, mais quand il n'y a plus rien à retrancher"). Attribute it to Saint-Exupéry only.
 
 **Present:**
 ```
 "Perfection is obtained not when there is no longer anything 
 to add, but when there's no longer anything to take away."
-— Antoine de Saint-Exupery (via Rick Rubin, The Creative Act)
+Antoine de Saint-Exupéry, Terre des hommes (1939)
 
 When you revise, do you mostly add detail or mostly cut?
 ```
@@ -53,7 +54,7 @@ When you revise, do you mostly add detail or mostly cut?
 ```
 "In terms of priority, inspiration comes first. You come next. 
 The audience comes last."
-— Rick Rubin, The Creative Act
+Rick Rubin, The Creative Act
 
 Do you write for yourself first and trust it'll resonate? 
 Or do you write with a specific reader in mind?
@@ -72,9 +73,9 @@ Or do you write with a specific reader in mind?
 ```
 "Does it amplify the essence? Does it distract from the 
 essence? Is it absolutely necessary?"
-— Rick Rubin, The Creative Act
+Rick Rubin, The Creative Act
 
-When you look at a paragraph — do you ask "does every 
+When you look at a paragraph, do you ask "does every 
 sentence earn its place?" or "does this feel complete 
 as a whole?"
 ```
@@ -91,7 +92,7 @@ as a whole?"
 **Present:**
 ```
 "You can doubt your way to excellence."
-— Rick Rubin, The Creative Act
+Rick Rubin, The Creative Act
 
 Are you someone who ships fast and iterates, or someone 
 who won't release until it meets your standard?
@@ -108,8 +109,8 @@ who won't release until it meets your standard?
 
 **Present:**
 ```
-"To purposely experiment past the boundaries of your taste."
-— Rick Rubin, The Creative Act
+One way to grow as a writer is to experiment on purpose
+past the boundaries of your own taste.
 
 Should AI output stay safely within your preferences? Or 
 should it occasionally push you past what you'd normally write?
@@ -128,7 +129,7 @@ should it occasionally push you past what you'd normally write?
 ```
 "Flaws are human, and the attraction of art is the humanity 
 held in it."
-— Rick Rubin, The Creative Act
+Rick Rubin, The Creative Act
 
 Is a small imperfection that adds personality better or worse 
 than polished consistency?
@@ -145,8 +146,8 @@ than polished consistency?
 
 **Present:**
 ```
-"The personal is the universal."
-— Rick Rubin, The Creative Act
+One view of writing holds that the more personal and
+specific a detail is, the more widely it lands.
 
 Should writing be specific to your experience even if not 
 everyone relates? Or broad enough that anyone sees themselves 

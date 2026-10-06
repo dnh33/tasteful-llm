@@ -1,0 +1,15 @@
+{
+  "name": "tasteful-llm",
+  "description": "Anti-slop skills for marketing copy, naming and positioning.",
+  "owner": {
+    "name": "dnh33",
+    "url": "https://github.com/dnh33"
+  },
+  "plugins": [
+    {
+      "name": "tasteful-llm",
+      "source": "./",
+      "description": "Substitution Test gate plus a named anti-slop pattern catalog for creative and strategic prose."
+    }
+  ]
+}

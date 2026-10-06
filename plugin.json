@@ -1,0 +1,35 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "tasteful-llm",
+  "version": "0.4.0",
+  "description": "Reduces AI slop in creative and strategic output. Substitution Test gate, per-model profiles for Claude, GPT and DeepSeek, and a 52-pattern anti-slop catalog in six categories.",
+  "author": {
+    "name": "dnh33",
+    "url": "https://github.com/dnh33"
+  },
+  "homepage": "https://github.com/dnh33/tasteful-llm",
+  "repository": "https://github.com/dnh33/tasteful-llm",
+  "license": "MIT",
+  "keywords": [
+    "taste",
+    "quality",
+    "anti-slop",
+    "writing",
+    "copy",
+    "creative",
+    "marketing",
+    "branding",
+    "naming",
+    "positioning"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "tasteful-llm",
+        "shortDescription": "Anti-slop checks for creative and strategic writing",
+        "developerName": "dnh33",
+        "category": "Productivity"
+      }
+    }
+  }
+}

@@ -1,35 +1,41 @@
-# Voice Test — Constructive Layer
+# Voice test
 
-Applied AFTER the 5 checks pass. This is additive, not a gate — it adds life to prose that is already clean and specific.
+The voice test adds life to prose that is already clean and specific. It has two roles, depending on the tier (see [SKILL.md](SKILL.md)):
 
-## 1. Read It Aloud
+- Craft tier: the voice test is the gate. It is the only check that runs, so a draft ships when it passes all four questions below.
+- Reduced tier: it runs after the three checks pass, as a second pass.
+- Full tier: it is optional. Run it when a draft passes the five checks but reads as clinical.
 
-Does it sound like a specific human, or "a professional writer"? If you can't hear a personality, it's technically correct and emotionally dead.
+A draft passes when each question gets a concrete answer: you can hear a specific person, you can point to a word the reader would not predict, three consecutive sentences differ in length and shape, and you can name the emotion.
 
-**Dead:** "We provide comprehensive solutions tailored to your unique needs."
-**Alive:** "We built this because our CEO got tired of copy-pasting between Notion and Slack every Monday."
+## 1. Read it aloud
 
-## 2. Find the Surprise
+Does it sound like a specific human, or "a professional writer"? If you cannot hear a personality, it is technically correct and emotionally dead.
 
-Is there at least one word or phrase the reader wouldn't predict? Predictable prose is furniture. Surprising prose is memorable.
+Dead: "We provide comprehensive solutions tailored to your unique needs."
+Alive: "We built this because our CEO got tired of copy-pasting between Notion and Slack every Monday."
 
-**Predictable:** "Our team is passionate about helping businesses grow."
-**Surprising:** "Our team argues about database schemas at lunch. Voluntarily."
+## 2. Find the surprise
 
-## 3. Check the Music
+Is there at least one word or phrase the reader would not predict? Predictable prose is furniture. Surprising prose is memorable.
 
-Do three consecutive sentences have different lengths and rhythms? Uniform sentence length is a cadence fingerprint of AI output. Vary it.
+Predictable: "Our team is passionate about helping businesses grow."
+Surprising: "Our team argues about database schemas at lunch. Voluntarily."
 
-**Monotone:** "We analyze your data. We find the patterns. We deliver the insights. We help you grow."
-**Musical:** "We analyze your data. Then we argue about what it means until someone finds the pattern nobody expected. That's the one we ship."
+## 3. Check the music
 
-## 4. Name the Emotion
+Do three consecutive sentences differ in length and rhythm? Current models vary sentence length less than people do (Pangram, textpulse). That is a tendency and proves nothing about one text. If three sentences in a row have the same length and shape, vary them.
 
-Not "positive" or "negative" — the specific emotion. Wry? Defiant? Quietly confident? If you can't name it, it's not there. Neutral is a choice, not a default.
+Monotone: "We analyze your data. We find the patterns. We deliver the insights. We help you grow."
+Musical: "We analyze your data. Then we argue about what it means until someone finds the pattern nobody expected. That's the one we ship."
 
-**Unnamed:** "We're excited to share our latest update with you."
-**Named (wry confidence):** "Version 4 does what Version 3 promised. We checked this time."
+## 4. Name the emotion
 
-## When This Matters Most
+Name the specific emotion, beyond "positive" or "negative". Wry? Defiant? Quietly confident? If you cannot name it, it is not there. Neutral is a choice, and a default does not count as one.
 
-Brand voice work, editorial content, narrative copy, founder letters, anything where the reader should feel something beyond "informed."
+Unnamed: "We're excited to share our latest update with you."
+Named (wry confidence): "Version 4 does what Version 3 promised. We checked this time."
+
+## When this matters most
+
+Brand voice work, editorial content, narrative copy, founder letters, and anything where the reader should feel something beyond "informed".

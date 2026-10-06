@@ -1,10 +1,12 @@
-# Heading-Level Slop — C1, C2, C4
+# Heading-level slop: C1, C2, C4
 
-Patterns where headlines, subheadlines, and mission statements say nothing specific.
+Patterns where headlines, subheadlines, and mission statements say nothing specific. Acme is a fictional product, and its mechanisms in Fix lines are illustrative.
 
 ---
 
 ## C1: Everything Headline
+
+Status: unchecked · Seen in: all · Verified: 2026-04 (original)
 
 **Slop:** "The All-in-One Platform for Modern Teams"
 
@@ -16,6 +18,8 @@ Patterns where headlines, subheadlines, and mission statements say nothing speci
 
 ## C2: Subheadline Repeat
 
+Status: unchecked · Seen in: all · Verified: 2026-04 (original)
+
 **Slop:** Headline: "Automate Your Workflow." Subheadline: "Our powerful platform helps you streamline and automate complex business processes."
 
 **Why it's slop:** The subheadline's job is to add new information. This one restates the headline with more words and less clarity. The reader has been told the same thing twice and knows nothing.
@@ -25,6 +29,8 @@ Patterns where headlines, subheadlines, and mission statements say nothing speci
 ---
 
 ## C4: Mission Statement Void
+
+Status: unchecked · Seen in: all · Verified: 2026-04 (original)
 
 **Slop:** "We're on a mission to transform how teams collaborate, enabling organizations to achieve more with less."
 
