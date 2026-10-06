@@ -47,8 +47,8 @@ Either copy the skills into your Codex skills directory:
 
 ```bash
 git clone https://github.com/dnh33/tasteful-llm
-./tasteful-llm/scripts/install-codex.sh            # installs to ~/.agents/skills
-./tasteful-llm/scripts/install-codex.sh ./.agents/skills   # or a directory you name
+sh tasteful-llm/scripts/install-codex.sh            # installs to ~/.agents/skills
+sh tasteful-llm/scripts/install-codex.sh ./.agents/skills   # or a directory you name
 ```
 
 or add the repo as a Codex marketplace:
